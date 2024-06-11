@@ -60,7 +60,8 @@ document.querySelector("form").addEventListener("submit", (e) => {
 			shape: stageToShape(stage),
 			category: speedToCat(speed),
 			latitude: latitude,
-			longitude: longitude
+			longitude: longitude,
+		        ace: getACE(speed)
 		})
 	});
 
