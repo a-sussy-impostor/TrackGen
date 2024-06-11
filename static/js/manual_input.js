@@ -1,3 +1,7 @@
+function getACE(speed) {
+	return (speed ** 2)(10 ** -4);
+}
+
 function speedToCat(speed) {
 	const maxSpeed = Number.MAX_SAFE_INTEGER;
 	const speedCatMap = new Map([
